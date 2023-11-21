@@ -1,62 +1,80 @@
 @media (max-width: 820px) {
-    .promo {
-        &__header {
-            font-size: 36px;
-        }
-        &__subheader {
-            font-size: 20px;
-        }
-        &__icons {
-            justify-content: space-around;
-        }
-        .button_main {
-            width: 240px;
-            font-size: 14px;
-        }
-        &__link {
-            font-size: 14px;
-        }
+  .promo {
+    &__header {
+      font-size: 36px;
     }
-    .header {
-        &__logo {
-            width: 210px;
+    &__subheader {
+      font-size: 20px;
+    }
+    &__icons {
+      justify-content: space-around;
+    }
+    .button_main {
+      width: 240px;
+      font-size: 14px;
+    }
+    &__link {
+      font-size: 14px;
+    }
+  }
+  .header {
+    &__logo {
+      width: 210px;
+    }
+    &__official {
+      span {
+        font-size: 16px;
+      }
+    }
+    &__contacts {
+      a {
+        font-size: 14px;
+      }
+      button {
+        font-size: 10px;
+        width: 130px;
+        height: 24px;
+      }
+    }
+  }
+
+  .advantages {
+    .title {
+      font-size: 26px;
+    }
+    padding: 50px 0 12px;
+    &__wrapper {
+      margin-top: 40px;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item {
+      margin-bottom: 34px;
+    }
+    &__subtitle {
+      margin-top: 10px;
+    }
+    &__descr {
+      margin-top: 6px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+    .consultation {
+        .title_left {
+             font-size: 24px;
         }
-        &__official {
-            span {
-                font-size: 16px;
+        .feed-form {
+            width: 260px;
+            input {
+                height: 40px;
             }
-        }
-        &__contacts {
-            a {
+            .button_submit {
+                height: 46px;
                 font-size: 14px;
             }
-            button {
-                font-size: 10px;
-                width: 130px;
-                height: 24px;
-            }
         }
     }
-
-    .advantages {
-        .title {
-            font-size: 26px;
-        }
-        padding: 50px 0 12px;
-        &__wrapper {
-            margin-top: 40px;
-            flex-direction: column;
-            align-items: center;
-        }
-        &__item {
-            margin-bottom: 34px;
-        }
-        &__subtitle {
-            margin-top: 10px;
-        }
-        &__descr {
-            margin-top: 6px;
-        }
-    }
-
+    
 }
