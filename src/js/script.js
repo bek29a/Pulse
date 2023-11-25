@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('.carousel__inner').slick({
         speed: 1000,
         // adaptiveHeight: true,
@@ -14,4 +14,4 @@ $(document).ready(function(){
             }
         ]
     });
-  });
+});
