@@ -1,3 +1,15 @@
+@media (max-width: 1000px) {
+  .carousel {
+    &__inner {
+      max-width: 560px;
+      img {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
 @media (max-width: 820px) {
   .promo {
     &__header {
@@ -36,6 +48,7 @@
         height: 24px;
       }
     }
+    
   }
 
   .advantages {
@@ -58,6 +71,18 @@
       margin-top: 6px;
     }
   }
+  
+  .carousel {
+    &__inner {
+      max-width: 400px;
+    }
+  }
+
+  .catalog__tabs {
+    li {
+      width: 180px;
+    }
+  }
 }
 
 @media (max-width: 640px) {
@@ -76,5 +101,25 @@
             }
         }
     }
-    
+    .catalog {
+      .catalog__tabs {
+        justify-content: space-evenly;
+        li {
+          width: 120px;
+          font-size: 12px;
+          transform: translateX(0deg);
+          div {
+            transform: translateX(0deg);
+          }
+        }
+      }
+    }
+}       
+
+@media (max-width: 440px) {
+  .carousel {
+    &__inner {
+      max-width: 300px;
+    }
+  }
 }
