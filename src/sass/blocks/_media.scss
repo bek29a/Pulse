@@ -1,7 +1,7 @@
 @media (max-width: 1000px) {
   .carousel {
-    &__inner {
-      max-width: 560px;
+    .carousel__inner {
+      width: 560px;
       img {
         width: 100%;
         margin: 0 auto;
@@ -86,6 +86,11 @@
 }
 
 @media (max-width: 640px) {
+    .header {
+      .header__official {
+        display: none;
+      }
+    }
     .consultation {
         .title_left {
              font-size: 24px;
