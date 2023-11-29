@@ -163,6 +163,16 @@
         text-align: center;
       }
     }
+    .overlay {
+      .modal {
+        width: 260px;
+        padding: 24px;
+        left: 49%;
+      }
+      .feed-form {
+        width: 210px;
+      }
+    }
 }       
 
 @media (max-width: 440px) {
