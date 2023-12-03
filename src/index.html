@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -112,10 +112,10 @@
                 и мы перезвоним вам в течении 10 минут
             </div>
 
-            <form class="feed-form" action="#">
-                <input required placeholder="Ваше имя" type="text">
-                <input required placeholder="Ваш телефон" type="number">
-                <input required placeholder="Ваш E-mail" type="email">
+            <form id="consultation-form" class="feed-form" action="#">
+                <input name="name" placeholder="Ваше имя" type="text">
+                <input name="phone" placeholder="Ваш телефон">
+                <input name="email" placeholder="Ваш E-mail" type="email">
 
                 <button class="button button_submit">заказать консультацию</button>
             </form>
@@ -525,9 +525,9 @@
                 и мы перезвоним вам в течении 10 минут
             </div>
             <form class="feed-form feed__form-mt25" action="#">
-                <input required placeholder="Ваше имя" type="text">
-                <input required placeholder="Ваш телефон" type="number">
-                <input required placeholder="Ваш E-mail" type="email">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
                 <button class="button button_submit">заказать консультацию</button>
             </form>
         </div>
@@ -541,9 +541,9 @@
                 Пульсометр Polar FT1
             </div>
             <form class="feed-form feed__form-mt25" action="#">
-                <input required placeholder="Ваше имя" type="text">
-                <input required placeholder="Ваш телефон" type="number">
-                <input required placeholder="Ваш E-mail" type="email">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
                 <button class="button button_submit">купить</button>
             </form>
         </div>
@@ -560,9 +560,16 @@
         
     </div>
 
+    <a href="#up" class="pageup">
+        <img src="icons/up.svg" alt="up">
+    </a>
+    
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
